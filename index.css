@@ -31,7 +31,23 @@ header {
 p {
             color: #333; 
         }
-
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: hsl(0, 77%, 45%);
+            font-weight: bold;
+        }
+        
 main {
     max-width: 800px;
     margin: 20px auto;
